@@ -11,6 +11,7 @@
 body {
   background-color: #2b81ac;
   color: white;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 main {
@@ -38,10 +39,10 @@ li {
   list-style: none;
   display: inline-block;
   border: white 3px solid;
+  padding: 20px;
 }
 
 li p {
-  margin: 20px auto;
   text-align: center;
 }
 
