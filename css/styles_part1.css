@@ -6,3 +6,99 @@
   font: inherit;
   vertical-align: baseline;
 }
+
+header {
+  text-transform: uppercase;
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin: 143px 374px 0px 374px;
+  max-width: 540px;
+}
+
+header p {
+  color: #898f99;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 4.8px;
+  line-height: normal;
+}
+
+header h1 {
+  color: #0ec8cb;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 4.8px;
+  line-height: normal;
+  margin: 35px 0 44px 0;
+}
+
+header h2 {
+  color: #999999;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+main {
+  display: inline-flex;
+  margin: 108px 170px 0 170px;
+}
+
+section {
+  text-align: center;
+  background: #f7f7f7;
+  border: 1px solid #ececec;
+}
+
+section path {
+  fill: black;
+}
+
+section svg {
+  margin: 63px 86px 64px 85px;
+}
+
+section h3 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section p {
+  color: #777777;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin: 33px 32px 94px 30px;
+}
+
+section:hover path {
+  fill: white;
+}
+
+section:hover {
+  background: #0ec8cb;
+  border: 1px solid #0ec8cb;
+}
+
+section:hover * {
+  color: #f7f7f7;
+}
