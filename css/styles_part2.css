@@ -44,10 +44,11 @@ li {
 
 li p {
   text-align: center;
+  font-size: 30px;
 }
 
 p {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .small {
@@ -104,4 +105,8 @@ p {
 
 .violet {
   background-color: #666699;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
