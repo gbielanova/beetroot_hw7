@@ -107,6 +107,10 @@ p {
   background-color: #666699;
 }
 
-li:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+ul:hover > li {
+  opacity: 0.5;
+}
+
+ul:hover > li:hover {
+  opacity: 1;
 }
