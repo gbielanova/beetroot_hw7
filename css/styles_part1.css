@@ -11,9 +11,8 @@ header {
   text-transform: uppercase;
   text-align: center;
   height: auto;
-  width: auto;
-  margin: 143px 374px 0px 374px;
-  max-width: 540px;
+  width: 40%;
+  margin: 143px 30% 0px 30%;
 }
 
 header p {
@@ -45,6 +44,8 @@ header h2 {
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+  padding: 0 25%;
+  text-align: center;
 }
 
 main {
