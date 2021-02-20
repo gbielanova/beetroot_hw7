@@ -19,7 +19,7 @@ main {
   display: inline-block;
   margin: 2.5%;
   padding: 5% 15%;
-  min-width: 95vh;
+  min-width: 95vw;
   min-height: 95vh;
 }
 
